@@ -58,23 +58,25 @@ module.exports = function(grunt) {
         src: ['src/js/*.js'],
         dest: 'public/js/<%= pkg.name %>.js'
       },
-    //  jsprod: {
-    //    src: ['public/<%= pkg.name %>.js'],
-    //    dest: 'public/js/<%= pkg.name %>.js'
-    //  },
-    //  cssprod: {
-    //    src: ['public/dev/<%= pkg.name %>.css'],
-    //    dest: 'public/shared/<%= pkg.name %>.css'
-    //  }
     },
     uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */'
+      buildVendorJs: {
+        options: {
+          banner: '/*! Vendor package <%= grunt.template.today("yyyy-mm-dd") %> */'
+        },
+        files: {
+          'public/vendor/<%= pkg.name %>.min.js' : ['public/vendor/js/*.js']
+        }
       },
-      build: {
-        src: ['public/js/<%= pkg.name %>.js'],
-        dest: 'public/js/<%= pkg.name %>.min.js'
-      }
+      buildJs: {
+        options: {
+          mangle: false,
+          banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */'
+        },
+        files: {
+          'public/js/<%= pkg.name %>.min.js' : ['public/js/<%= pkg.name %>.js']
+        }
+      },
     },
     cssmin: {
       add_banner: {
@@ -82,7 +84,8 @@ module.exports = function(grunt) {
           banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */'
         },
         files: {
-          'public/css/<%= pkg.name %>.min.css': ['public/css/<%= pkg.name %>.css']
+          'public/css/<%= pkg.name %>.min.css': ['public/css/<%= pkg.name %>.css'],
+          'public/vendor/css/<%= pkg.name %>.min.css': ['vendor/css/*.css']
         }
       }
     },

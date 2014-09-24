@@ -1,4 +1,4 @@
-# AngularJs boiler-plate 
+# Robert's kitesafari 
 
 With Foundation and Sass (most boiler-plates are with Bootstrap and Less).
 
@@ -43,6 +43,7 @@ Browse to `localhost:3000`
 * grunt-env -> for development and production enviroment
 * grunt-preprocess -> create the index.html from `src/layout/index.html`
 * grunt-contrib-copy -> to copy `src/*` files and bower files to `public/shared/dev/`
+* grunt-contrib-jshint -> to check javascript code`
 * grunt-contrib-concat -> push all files (js,css) to one 'uncompressed file'
 * grunt-contrib-sass -> scss files so we can use vars in our css files, and more!
 * grunt-contrib-watch -> to run all tasks after a file is changed in i.o. `src/*`
@@ -55,6 +56,7 @@ Browse to `localhost:3000`
 
 Create the production myApp and clean up develoment files.
 
+    grunt
     grunt prod
 
 Publish the `public` directory on a webserer
