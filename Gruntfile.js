@@ -27,6 +27,7 @@ module.exports = function(grunt) {
     },
     copy: {
       static: { src: 'static/**/*', dest: 'public/' },
+      favicon: { src: 'static/favicon/*', dest: 'public/' , expand: true, flatten: true},
       vendor: { src: 'vendor/**/*', dest: 'public/' }
     },
     jade: {
