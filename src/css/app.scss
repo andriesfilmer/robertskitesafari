@@ -34,10 +34,12 @@ html, body, .off-canvas-wrap, .inner-wrap, .main-section
 }
 
 .row {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #fff;
   a {color: #913206;text-decoration: underline;}
 }
 
+em:before { content:"\00b4"; }
+em:after { content:"\00b4"; }
 
 img.full {
   width: 100%;
