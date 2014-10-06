@@ -15,8 +15,8 @@
         templateUrl: 'partials/map.html',
         controller: 'mainCtrl'
       }).
-      when('/details', {
-        templateUrl: 'partials/details.html',
+      when('/info', {
+        templateUrl: 'partials/info.html',
         controller: 'mainCtrl'
       }).
       when('/video', {
