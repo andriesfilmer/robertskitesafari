@@ -16,7 +16,9 @@
     "grunt-contrib-jade": "~0.12.0"
   },
   "repository": {
-    "//" : "To prevent error: 'No repository field yet.'"
+    "//": "To prevent error: 'No repository field yet.'"
+  },
+  "dependencies": {
+    "grunt-angular-gettext": "~2.1.0"
   }
 }
-

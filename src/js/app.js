@@ -3,7 +3,7 @@
 
 
   // Declare app level module which depends on views, and components
-  var app = angular.module('app', ['ngRoute']);
+  var app = angular.module('app', ['ngRoute', 'gettext']);
 
   app.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
@@ -29,11 +29,32 @@
 
   }]);
 
-  app.run(function($rootScope, $location, $anchorScroll, $routeParams) {
+  app.run(function($rootScope, $location, $window, $anchorScroll, $routeParams, gettextCatalog) {
+
+    // If we don't have a preffered language.
+    if(!$window.localStorage.lang) {
+      switch($window.navigator.language.substring(0, 2)) {
+        case 'de':
+          $window.localStorage.lang = 'de';
+          console.log('##### set localstorage -> de'); 
+          break;
+        case 'en':
+          $window.localStorage.lang = 'en';
+          console.log('##### set localstorage -> en'); 
+          break;
+        default:
+          $window.localStorage.lang = 'nl';
+          console.log('##### set localstorage -> nl'); 
+      }
+    }
+
+    gettextCatalog.baseLanguage='nl';
+    gettextCatalog.currentLanguage = $window.localStorage.lang;
+    gettextCatalog.debug = true;
+
     $rootScope.$on('$routeChangeSuccess', function(newRoute, oldRoute) {
       $location.hash($routeParams.scrollTo);
       $anchorScroll();
-
 
       // top-bar is not closing with xhr call, so we force a close on change
       $('.top-bar, [data-topbar]').css('height', '').removeClass('expanded');
@@ -41,7 +62,19 @@
     });
   });
 
-  app.controller('mainCtrl', function() {
+  app.controller('mainCtrl', function($scope, $window, $location, gettextCatalog) {
+
+    // Debug languages
+    //console.log('##### Scope Lang -> ' + $scope.lang); 
+    //console.log('##### Windo Lang -> ' + $window.localStorage.lang); 
+    //console.log('##### Navig Lang -> ' + $window.navigator.language.substring(0, 2)); 
+    //
+    $scope.languages = ['nl', 'en', 'de'];
+    $scope.changeLanguage = function () {
+      $window.localStorage.lang = $scope.lang;
+      gettextCatalog.currentLanguage = $window.localStorage.lang;
+      $window.location.reload();
+    };
   });
 
   // Google Maps. Header include => http://maps.google.com/maps/api/js?sensor=false

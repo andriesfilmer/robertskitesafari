@@ -50,13 +50,30 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          'public/css/<%= pkg.name %>.css' : 'src/css/*.scss'
+          'public/css/<%= pkg.name %>.css' : 'src/scss/*.scss'
+        }
+      }
+    },
+    nggettext_extract: {
+      pot: {
+        files: {
+          'po/template.pot': ['public/partials/home.html', 
+                              'public/partials/info.html',
+                              'public/partials/map.html', 
+                              'public/partials/video.html']
+        }
+      }
+    },
+    nggettext_compile: {
+      all: {
+        files: {
+          'po/translations.js': ['po/*.po']
         }
       }
     },
     concat: {
       jsdev: {
-        src: ['src/js/*.js'],
+        src: ['src/js/*.js', 'po/translations.js'],
         dest: 'public/js/<%= pkg.name %>.js'
       },
     },
@@ -66,7 +83,11 @@ module.exports = function(grunt) {
           banner: '/*! Vendor package <%= grunt.template.today("yyyy-mm-dd") %> */'
         },
         files: {
-          'public/vendor/<%= pkg.name %>.min.js' : ['public/vendor/js/*.js']
+          'public/vendor/<%= pkg.name %>.min.js' : ['vendor/js/modernizr.js',
+                                                    'vendor/js/angular-route.min.js',
+                                                    'vendor/js/angular-gettext.min.js',
+                                                    'vendor/js/markerwithlabel.js',
+                                                    'vendor/js/foundation.min.js']
         }
       },
       buildJs: {
@@ -95,15 +116,18 @@ module.exports = function(grunt) {
             "public/css/<%= pkg.name %>.css"]
     },
     watch: {
-      files: ['src/layout/*', 'src/js/*', 'src/css/*','src/partials/**/*.jade'],
-      tasks: ['default']
+      all: {
+        options: { livereload: true },
+        files: ['Gruntfile.js', 'src/layout/*', 'src/js/*', 'src/scss/*','src/partials/**/*.jade', 'po/*.po'],
+        tasks: ['default']
+      },
     },
     connect: {
       server: {
         options: {
           port: 3000,
           base: 'public',
-          keepalive: true
+          livereload: true
         }
       }
     }
@@ -122,11 +146,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-angular-gettext');
 
 
   // Default task(s).
-  grunt.registerTask('default', ['env:dev', 'preprocess', 'jshint', 'sass', 'jade','concat']);
-  grunt.registerTask('prod', ['env:prod', 'preprocess', 'sass', 'uglify', 'cssmin', 'clean']);
-
+  grunt.registerTask('once', ['copy']);
+  grunt.registerTask('default', ['env:dev', 'preprocess', 'jshint', 'cssmin', 'sass', 'jade', 'nggettext_extract', 'nggettext_compile', 'concat', 'connect', 'watch']);
+  grunt.registerTask('prod', ['env:prod', 'preprocess', 'sass', 'jade', 'concat', 'uglify', 'cssmin', 'clean']);
 
 };
