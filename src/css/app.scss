@@ -13,8 +13,8 @@ html, body, .off-canvas-wrap, .inner-wrap, .main-section
 }
 
 .wrapper{min-height:100%}
-.main{overflow:auto;padding-bottom:255px}
-.footer{margin-top:-255px}
+.main{overflow:auto;padding-bottom:215px}
+.footer{margin-top:-215px}
 
 .top-bar .title-area i {color: $main-color2;}
 .top-bar-section { 
@@ -89,5 +89,9 @@ img.full {
   .row {
     background-color: #333;
   }
+}
+
+.lang-dropdown, li.title.back {
+  background-color: #C77E0D !important;
 }
 

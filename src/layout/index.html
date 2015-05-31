@@ -36,6 +36,7 @@
   <script src="/vendor/js/1_modernizr.js"></script>
   <script src="/vendor/js/3_angular-route.js"></script>
   <script src="/vendor/js/5_foundation.js"></script>
+  <script src="/vendor/js/angular-gettext.min.js"></script>
   <script src="/vendor/js/markerwithlabel.js"></script>
   <script src="/js/<!-- @echo pkgname -->.js"></script>
   <link rel="stylesheet" href="/vendor/css/foundation-icons.css"/>
@@ -62,7 +63,7 @@
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
-            <h1><a href="#" class="fi-home"> Roberts Kitesafari</a></h1>
+            <h1><a href="#" class="fi-home"> <nobr>Roberts Kitesafari</nobr></a></h1>
           </li>
            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
           <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -71,15 +72,24 @@
           <!-- Right Nav Section -->
           <ul class="right">
             <li class="divider"></li>
-            <li class="active"><a href="#home?scrollTo=over-ons">Over ons</a></li>
+            <li class="has-dropdown">
+              <a href="#" class="lang-dropdown">Languages</a>
+              <ul class="dropdown">
+                <li><a ng-click="changeLanguage(lang='nl')">Nederlands</a></li>
+                <li><a ng-click="changeLanguage(lang='en')">English</a></li>
+                <li><a ng-click="changeLanguage(lang='de')">Deutsch</a></li>
+             </ul>
+            </li>
+            <li class="divider"></li>
+            <li class="active"><a href="#home?scrollTo=about-us">About us</a></li>
             <li class="divider"></li>
             <li class="active"><a href="#map">Coastline</a></li>
             <li class="divider"></li>
             <li class="active"><a href="#home?scrollTo=contact">Contact</a></li>
             <li class="divider"></li>
-            <li class="active"><a href="#video">Video's</a></li>
+            <li class="active"><a href="#video">Videos</a></li>
             <li class="divider"></li>
-            <li class="active"><a href="#info">Meer info</a></li>
+            <li class="active"><a href="#info">More info</a></li>
             <li class="divider"></li>
           </ul>
         </section>
@@ -226,11 +236,6 @@
         <li class="fi-mail color-blue"> <a href="mailto:info@robertskitesafari.com">info@robertskitesafari.com</a></li>
         <li class="fi-megaphone color-blue"> <a href="tel:+310652090601">+31 (0) 652 090 601</a></li>
       </ul>
-      <strong>Miriam Veldman</strong>
-      <ul class="footer-links">
-        <li class="fi-mail color-blue"> <a href="mailto:miriamverano@gmail.com">miriamverano@gmail.com</a></li>
-        <li class="fi-telephone color-blue"> <a href="tel:+310629014866">+31 (0) 629 014 866</a></li>
-      </ul>
     </div>
     <div class="medium-4 large-4 columns">
     <h3>Facebook</h3>
@@ -241,16 +246,17 @@
     <div class="medium-4 large-4 columns">
       <h3>Overig</h3>
       <ul class="footer-links">
-         <li class="fi-link color-blue"> <a href="/#home?scrollTo=over-ons">Over ons</a></li>
-         <li class="fi-link color-blue"> <a href="http://www.seabreeze.com.au/graphs/wa3.asp">Seabreeze (weer & wind)</a></li>
-         <li class="fi-link color-blue"> <a href="/#disclaimer" rel="no-follow">Disclaimer</a></li>
+         <li class="fi-link color-blue"> <a href="/#home?scrollTo=about-us">About us</a></li>
+         <!-- <li class="fi-link color-blue"> <a href="http://www.seabreeze.com.au/graphs/wa3.asp">Seabreeze (weer & wind)</a></li> -->
+         <li class="fi-link color-blue"> <a href="/docs/general-terms-and-conditions.pdf" rel="no-follow">Terms and conditions (pdf)</a></li>
+         <li class="fi-link color-blue"> <a href="/docs/Form-and-participation-agreement.pdf" rel="no-follow">Participation agreement (pdf)</a></li>
        </ul>
      </div>
   </div>
   <div class="iGroupware-footer text-center">
     <div class="row">
       <div class="large-12 columns">
-        Development <a href="http://iGroupware.org">iGroupware</a> | <a href="http://andries.filmer.nl">Andries Filmer</a> 
+        <a href="http://andries.filmer.nl">Development & Hosting by Andries Filmer</a> 
       </div>
     </div>
 </div>
