@@ -9,7 +9,6 @@
     "angular": "1.2.x",
     "angular-route": "1.2.x",
     "foundation": "5.1.x",
-    "foundation-icon-fonts": "",
-    "angular-gettext": "~2.1.0"
+    "foundation-icon-fonts" : ""
   }
 }

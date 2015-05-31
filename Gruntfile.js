@@ -54,26 +54,9 @@ module.exports = function(grunt) {
         }
       }
     },
-    nggettext_extract: {
-      pot: {
-        files: {
-          'po/template.pot': ['public/partials/home.html', 
-                              'public/partials/info.html',
-                              'public/partials/map.html', 
-                              'public/partials/video.html']
-        }
-      }
-    },
-    nggettext_compile: {
-      all: {
-        files: {
-          'po/translations.js': ['po/*.po']
-        }
-      }
-    },
     concat: {
       jsdev: {
-        src: ['src/js/*.js', 'po/translations.js'],
+        src: ['src/js/*.js'],
         dest: 'public/js/<%= pkg.name %>.js'
       },
     },
@@ -112,18 +95,15 @@ module.exports = function(grunt) {
             "public/css/<%= pkg.name %>.css"]
     },
     watch: {
-      all: {
-        options: { livereload: true },
-        files: ['Gruntfile.js', 'src/layout/*', 'src/js/*', 'src/css/*','src/partials/**/*.jade', 'po/*.po'],
-        tasks: ['default']
-      },
+      files: ['src/layout/*', 'src/js/*', 'src/css/*','src/partials/**/*.jade'],
+      tasks: ['default']
     },
     connect: {
       server: {
         options: {
           port: 3000,
           base: 'public',
-          livereload: true
+          keepalive: true
         }
       }
     }
@@ -142,12 +122,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-jade');
-  grunt.loadNpmTasks('grunt-angular-gettext');
 
 
   // Default task(s).
-  grunt.registerTask('once', ['copy']);
-  grunt.registerTask('default', ['env:dev', 'preprocess', 'jshint', 'cssmin', 'sass', 'jade', 'nggettext_extract', 'nggettext_compile', 'concat', 'connect', 'watch']);
+  grunt.registerTask('default', ['env:dev', 'preprocess', 'jshint', 'sass', 'jade','concat']);
   grunt.registerTask('prod', ['env:prod', 'preprocess', 'sass', 'uglify', 'cssmin', 'clean']);
 
 
