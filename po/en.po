@@ -13,13 +13,13 @@ msgstr ""
 
 #: public/partials/info.html:40
 msgid "(geplande data is variabel en kan afwijken)"
-msgstr "(geplande data is variabel en kan afwijken)"
+msgstr "(planned data is variable and may vary)"
 
 #: public/partials/info.html:5
 msgid "2 weken kitesafari € 1950,00"
 msgstr "2 weeks kitesafari € 1950,00"
 
-#: public/partials/info.html:96
+#: public/partials/info.html:95
 msgid "2 á 3 kites en een surfboard"
 msgstr "2-3 kites and a surfboard"
 
@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "<a href=\"http://www.seabreeze.com.au/graphs/wa3.asp\">Seabreeze</a> is a "
 "very interesting site with lots of information about the weather and the "
-"location."
+"location. "
 
 #: public/partials/info.html:78
 msgid ""
@@ -50,7 +50,7 @@ msgstr ""
 "iLimit=25&amp;iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;"
 "aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
 "%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
-"\"_blanc\">Trivago</a> a good site to find hotels, appartments te vinden."
+"\"_blanc\">Trivago</a> a good site to find hotels and appartments."
 
 #: public/partials/info.html:6
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Annulering"
 msgstr "Cancellations"
 
-#: public/partials/info.html:83
+#: public/partials/info.html:82
 msgid "Belangrijk is niet al te veel mee te nemen."
 msgstr "It is important not to bring to many items on the trip."
 
@@ -166,11 +166,11 @@ msgstr "Some pictures and videos in a montage."
 msgid "Enkele video fragmenten van onze laatste trip."
 msgstr "Some video clips from our last trip."
 
-#: public/partials/info.html:95
+#: public/partials/info.html:94
 msgid "Goede sunblock bijv. Island tribe 40+"
 msgstr "Good sunscreen or sunblock e.g. Island Tribe 40+"
 
-#: public/partials/info.html:94
+#: public/partials/info.html:93
 msgid ""
 "Goede zonnebril (Ik zou een waterzonnebril aanraden want de zon in Australië "
 "kan verblindend zijn)"
@@ -191,13 +191,13 @@ msgid ""
 "Het is belangrijk een goede reisverzekering af te sluiten dat de kite en de "
 "kite geralteerde activiteiten dekt.Dan kan bijvoorbeeld bij <a href="
 "\"https://www.allianz-assistance.nl/reisverzekering/adventure-en-survival-"
-"verzekering\">Allianz Global Assistance</a>of via de <a href=\"http://www."
+"verzekering\">Allianz Global Assistance</a> of via de <a href=\"http://www."
 "funsportpolis.nl/index.php/faq\">Nederlandse kitevereningingn (NKV)</a>"
 msgstr ""
 "It is important that you have good travel insurance that covers kiting and "
 "kite related activities. Insurance campanies providing this coverage are for "
 "example <a href=\"https://www.allianz-assistance.nl/reisverzekering/"
-"adventure-en-survival-verzekering\">Allianz Global Assistance</a>"
+"adventure-en-survival-verzekering\">Allianz Global Assistance</a> "
 
 #: public/partials/home.html:62
 msgid ""
@@ -287,7 +287,7 @@ msgstr "Minimum participation for a trip is 8 people, maximum is 10 people."
 msgid "Je in- uitzomen op de kitespots waar we komen."
 msgstr "Check your zoom level at the kite spots where we come."
 
-#: public/partials/info.html:82
+#: public/partials/info.html:81
 msgid "Kleding e.d."
 msgstr "Clothing etc."
 
@@ -295,7 +295,7 @@ msgstr "Clothing etc."
 msgid "Koffie, thee, water, limonade en 2 x gedestilleerde dranken"
 msgstr "Coffee, tea, water, lemonade and 2 x spirits"
 
-#: public/partials/info.html:92
+#: public/partials/info.html:91
 msgid "Lycra"
 msgstr "Lycra"
 
@@ -364,45 +364,14 @@ msgid "Ontbijt, lunch, avondeten en snacks in between"
 msgstr "Breakfast, lunch, dinner and snacks in between"
 
 #: public/partials/info.html:76
-msgid ""
-"Overige informatie\n"
-"      <ul>\n"
-"        <li translate=\"translate\"><a href=\"http://www.trivago.com/?"
-"iPathId=44315&amp;bDispMoreFilter=true&amp;aDateRange%5Barr"
-"%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
-"aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;iRoomType=7&amp;sOrderBy=relevance"
-"%20desc&amp;aPartner=&amp;aOverallLiking=1%2C2%2C3%2C4%2C5&amp;iOffset=0&amp;"
-"iLimit=25&amp;iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;"
-"aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
-"%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
-"\"_blanc\">Trivago</a> is een goede site om hotels, appartementen te vinden."
-"</li>\n"
-"        <li translate=\"translate\"><a href=\"http://www.seabreeze.com.au/"
-"graphs/wa3.asp\">Seabreeze</a> is een zeer interessante site met veel "
-"informatie over het weer en de lokatie.</li>\n"
-"      </ul>"
-msgstr ""
-"Overige informatie\n"
-"      <ul>\n"
-"        <li translate=\"translate\"><a href=\"http://www.trivago.com/?"
-"iPathId=44315&amp;bDispMoreFilter=true&amp;aDateRange%5Barr"
-"%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
-"aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;iRoomType=7&amp;sOrderBy=relevance"
-"%20desc&amp;aPartner=&amp;aOverallLiking=1%2C2%2C3%2C4%2C5&amp;iOffset=0&amp;"
-"iLimit=25&amp;iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;"
-"aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
-"%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
-"\"_blanc\">Trivago</a> is a good site for hotels, find apartments.</li>\n"
-"        <li translate=\"translate\"><a href=\"http://www.seabreeze.com.au/"
-"graphs/wa3.asp\">Seabreeze</a> is a very interesting site with information "
-"about the weather and the location.</li>\n"
-"      </ul>"
+msgid "Overige informatie"
+msgstr "Travel information"
 
 #: public/partials/info.html:13
 msgid "Overnachtingen op campings en toeslag entrée voor natuurparken"
 msgstr "Overnight stays at campsites and entrance fee for parks"
 
-#: public/partials/info.html:91
+#: public/partials/info.html:90
 msgid "Petje"
 msgstr "Hat"
 
@@ -424,11 +393,11 @@ msgstr ""
 "Under. After a relaxing first day in the beautiful city of Perth – where we "
 "will overnight on a campsite – our trip up north begins."
 
-#: public/partials/info.html:87
+#: public/partials/info.html:86
 msgid "Short"
 msgstr "Shorts"
 
-#: public/partials/info.html:93
+#: public/partials/info.html:92
 msgid ""
 "Shorty voor in de middag (Als je te lang vaart schuurt je buik open door "
 "zout en zand)"
@@ -436,19 +405,19 @@ msgstr ""
 "Shorty for the afternoon (if you kite long, your midriff may scratch from "
 "sand and salt)"
 
-#: public/partials/info.html:90
+#: public/partials/info.html:89
 msgid "Slippers en een paar goede schoenen"
 msgstr "Sandals and a good pair of shoes"
 
-#: public/partials/info.html:88
+#: public/partials/info.html:87
 msgid "Sokken"
 msgstr "socks"
 
-#: public/partials/info.html:86
+#: public/partials/info.html:85
 msgid "Spijkerbroek"
 msgstr "Jeans"
 
-#: public/partials/info.html:89
+#: public/partials/info.html:88
 msgid "T-shirts, sweater en een hoody omdat het 's avond soms kan afkoelen"
 msgstr "T-shirts and a sweater for the evening hours; it can cool down"
 
@@ -464,7 +433,7 @@ msgstr "Toyota land cruisers, roof tents, ordinary tents, kitchen trailer."
 msgid "Trailer voor boards, kites, SUP boards, bootje, vishengels e.d."
 msgstr "Trailer for boards, kites, SUP boards, boat, fishing rods, etc."
 
-#: public/partials/info.html:85
+#: public/partials/info.html:84
 msgid "Training broek"
 msgstr "Sweat pants"
 
@@ -488,7 +457,7 @@ msgstr "Video's to get some taste"
 msgid "Vliegtickets variëren in prijs van € 900,00 tot € 1400,00"
 msgstr "Ticket price varies from €900 to €1400"
 
-#: public/partials/info.html:98
+#: public/partials/info.html:97
 msgid ""
 "Voor díegene die willen afwisselen zijn er genoeg twin-tips aanwezig alsook "
 "reserve kites, SUP- en surfboards, snorkel- en visuitrusting"
@@ -534,3 +503,39 @@ msgstr "10 flight hours from Dubai to Perth on a Airbus 380"
 #: public/partials/info.html:48
 msgid "ca. 6 vlieguren naar Dubai met A380"
 msgstr "6 flight hours from Northern Europe to Dubai"
+
+#~ msgid ""
+#~ "Overige informatie\n"
+#~ "      <ul>\n"
+#~ "        <li translate=\"translate\"><a href=\"http://www.trivago.com/?"
+#~ "iPathId=44315&amp;bDispMoreFilter=true&amp;aDateRange%5Barr"
+#~ "%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
+#~ "aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;iRoomType=7&amp;"
+#~ "sOrderBy=relevance%20desc&amp;aPartner=&amp;"
+#~ "aOverallLiking=1%2C2%2C3%2C4%2C5&amp;iOffset=0&amp;iLimit=25&amp;"
+#~ "iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;aPriceRange"
+#~ "%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
+#~ "%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
+#~ "\"_blanc\">Trivago</a> is een goede site om hotels, appartementen te "
+#~ "vinden.</li>\n"
+#~ "        <li translate=\"translate\"><a href=\"http://www.seabreeze.com.au/"
+#~ "graphs/wa3.asp\">Seabreeze</a> is een zeer interessante site met veel "
+#~ "informatie over het weer en de lokatie.</li>\n"
+#~ "      </ul>"
+#~ msgstr ""
+#~ "Overige informatie\n"
+#~ "      <ul>\n"
+#~ "        <li translate=\"translate\"><a href=\"http://www.trivago.com/?"
+#~ "iPathId=44315&amp;bDispMoreFilter=true&amp;aDateRange%5Barr"
+#~ "%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
+#~ "aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;iRoomType=7&amp;"
+#~ "sOrderBy=relevance%20desc&amp;aPartner=&amp;"
+#~ "aOverallLiking=1%2C2%2C3%2C4%2C5&amp;iOffset=0&amp;iLimit=25&amp;"
+#~ "iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;aPriceRange"
+#~ "%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
+#~ "%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
+#~ "\"_blanc\">Trivago</a> is a good site for hotels, find apartments.</li>\n"
+#~ "        <li translate=\"translate\"><a href=\"http://www.seabreeze.com.au/"
+#~ "graphs/wa3.asp\">Seabreeze</a> is a very interesting site with "
+#~ "information about the weather and the location.</li>\n"
+#~ "      </ul>"
