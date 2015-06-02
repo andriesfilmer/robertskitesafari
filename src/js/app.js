@@ -70,6 +70,7 @@
     //console.log('##### Navig Lang -> ' + $window.navigator.language.substring(0, 2)); 
     //
     $scope.languages = ['nl', 'en', 'de'];
+    $scope.lang = $window.localStorage.lang;
     $scope.changeLanguage = function () {
       $window.localStorage.lang = $scope.lang;
       gettextCatalog.currentLanguage = $window.localStorage.lang;
