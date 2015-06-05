@@ -201,8 +201,8 @@ msgid ""
 msgstr ""
 "It is important that you have good travel insurance that covers kiting and "
 "kite related activities. Insurance campanies providing this coverage are for "
-"example <a href=\"https://www.allianz-assistance.nl/reisverzekering/"
-"adventure-en-survival-verzekering\">Allianz Global Assistance</a> "
+"example <a href=\"http://www.allianz-global-assistance.com/corporate/"
+"\">Allianz Global Assistance</a> "
 
 #: public/partials/home.html:62
 msgid ""
