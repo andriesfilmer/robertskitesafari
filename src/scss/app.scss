@@ -34,6 +34,13 @@ html, body, .off-canvas-wrap, .inner-wrap, .main-section
 	background: $main-color1;
 }
 
+#booking, .booking {
+  background-color: $main-color1;
+  margin-top: 1em;
+  color: #fff;
+  text-decoration: none;
+}
+
 .row {
   background-color: #fff;
   a {color: #913206;text-decoration: underline;}
@@ -53,6 +60,15 @@ img.full {
 }
 #map-canvas { height:30rem; img{max-width: inherit; }}
 
+#booking-textarea {
+  height: 6em;
+}
+
+#error {
+  color: red;
+  font-size: large;
+  margin: 1em 0 1em;
+}
 
 .footer {
   // Height must be 45px (nav.tab-bar, .main-section) higher

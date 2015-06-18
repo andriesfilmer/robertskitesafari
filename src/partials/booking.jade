@@ -1,0 +1,42 @@
+form#top(ng-submit="submit()")
+ div.row
+  div.large-6.columns
+   h3 Booking
+   p To book your Robertskitesafari, or to contact us to request a quote or further information, 
+    | please complete the form. If your enquiry is urgent please contact us on +31 6 52090601.
+   P Please include arrival and departure details on the below form.
+   p
+    strong Please note on confirmation of a booking we require a non refundable 50% deposit to secure you spot on your Roberts kitesafari.
+   img.show-for-large-up.full(src="/static/img/kiter-waves-01.jpg", title="", border="0")
+
+  div.large-6.columns(ng-hide="submitSuccessfully")
+   h3 Your details
+   div#error {{submitMessage}}
+   label Fullname *
+   input(type="text" name="name", ng-model="fullname")
+   label City
+   input(type="text" name="city", ng-model="city")
+   label Country
+   input(type="text" name="country", ng-model="country")
+   label Phone *
+   input(type="text" name="phone", ng-model="phone")
+   label E-mail *
+   input(type="text" name="email", ng-model="email")
+   label Comments
+   textarea#booking-textarea(name="comments", ng-model="comments")
+   h3 Tour details
+   label Arrival Date
+   input(type="date" name="arrival", ng-model="arrival")
+   label Departure Date
+   input(type="date" name="departure", ng-model="departure")
+   div(vc-recaptcha="", key="recaptcha.key", on-success="setResponse(response)")
+   input.booking.button.radius(type="submit", value="Submit")
+  div.large-6.columns(ng-show="submitSuccessfully") 
+   h3 Thank you very much
+   strong Mail has been send, we will contact you soon.
+   p Your contact information:
+   ul
+    li Fullname: {{fullname}}
+    li Phone: {{phone}}
+    li E-mail: {{email}}
+

@@ -11,6 +11,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="http://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit" async defer></script>
 
   <!-- Place favicon.ico and apple-touch-icon(s) -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -72,6 +73,8 @@
             </li>
             <li class="divider"></li>
             <li class="active"><a href="#home?scrollTo=about-us">About us</a></li>
+            <li class="divider"></li>
+            <li class="active"><a href="#booking">Booking</a></li>
             <li class="divider"></li>
             <li class="active"><a href="#map">Coastline</a></li>
             <li class="divider"></li>
@@ -269,6 +272,7 @@
   <script src="/vendor/js/angular-route.min.js"></script>
   <script src="/vendor/js/foundation.min.js"></script>
   <script src="/vendor/js/angular-gettext.min.js"></script>
+  <script src="/vendor/js/angular-recaptcha.min.js"></script>
   <script src="/vendor/js/markerwithlabel.js"></script>
   <script src="/js/<!-- @echo pkgname -->.js"></script>
   <!-- @endif -->

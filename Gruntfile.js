@@ -87,6 +87,7 @@ module.exports = function(grunt) {
                                                     'vendor/js/angular-route.min.js',
                                                     'vendor/js/angular-gettext.min.js',
                                                     'vendor/js/markerwithlabel.js',
+                                                    'vendor/js/angular-recaptcha.min.js',
                                                     'vendor/js/foundation.min.js']
         }
       },

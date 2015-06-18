@@ -3,12 +3,16 @@
 
 
   // Declare app level module which depends on views, and components
-  var app = angular.module('app', ['ngRoute', 'gettext']);
+  var app = angular.module('app', ['ngRoute', 'gettext', 'vcRecaptcha']);
 
   app.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
       when('/home', {
         templateUrl: 'partials/home.html',
+        controller: 'mainCtrl'
+      }).
+      when('/booking', {
+        templateUrl: 'partials/booking.html',
         controller: 'mainCtrl'
       }).
       when('/map', {
@@ -62,7 +66,55 @@
     });
   });
 
-  app.controller('mainCtrl', function($scope, $window, $location, gettextCatalog) {
+
+  app.controller('mainCtrl', function($scope, $window, $location, $http, $anchorScroll, gettextCatalog, vcRecaptchaService) {
+
+     $scope.submitSuccessfully = false;
+     $scope.widgetId = null;
+     $scope.recaptcha = {key: '6Lf7UwgTAAAAANdbikeI4WwGTYMCk_mvBF2Ze9oC'};
+     $scope.setResponse = function (response) {
+         console.info('Response available -> ' + response);
+         $scope.captchaResponse = response;
+     };
+     $scope.submit = function () {
+       var valid;
+
+       // Make Ajax request to our server with params
+       var params = {
+         fullname: $scope.fullname,
+         city: $scope.city,
+         country: $scope.country,
+         phone: $scope.phone,
+         email: $scope.email,
+         comments: $scope.comments,
+         arrival: $scope.arrival,
+         departure: $scope.departure,
+         recaptcha: $scope.captchaResponse
+       };
+       console.log('##### response -> ' + JSON.stringify(params)); 
+       $http.post('http://mailer-form-api.filmer.net/mailer/robertskitesafari',params).success(function(response){
+         console.log('##### api response -> ' + JSON.stringify(response)); 
+         $scope.submitSuccessfully = JSON.parse(response.submitSuccessfully);
+         $scope.submitMessage = response.reason;
+         $location.hash('top');
+         $anchorScroll();
+         if(response.error === 0){
+           console.log(response.submitSuccessfully);
+         }else{
+           console.log(response.reason);
+         }
+       });
+       console.log('sending the captcha response to the server...', $scope.captchaResponse);
+       if (valid) {
+         console.log('Success');
+         } else {
+         console.log('Failed validation');
+         // In case of a failed validation you need to reload the captcha
+         // because each response can be checked just once
+           vcRecaptchaService.reload($scope.widgetId);
+       }
+     };
+
 
     // Debug languages
     //console.log('##### Scope Lang -> ' + $scope.lang); 
