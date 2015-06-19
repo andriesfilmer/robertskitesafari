@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "grunt-env": "~0.4.0",
     "grunt-preprocess": "~4.0.0",
@@ -19,6 +19,7 @@
     "//": "To prevent error: 'No repository field yet.'"
   },
   "dependencies": {
-    "grunt-angular-gettext": "~2.1.0"
+    "grunt-angular-gettext": "~2.1.0",
+    "grunt-remove-logging": "~0.2.0"
   }
 }

@@ -112,6 +112,13 @@ module.exports = function(grunt) {
         }
       }
     },
+    // Remove console.log
+    removelogging: {
+      dist: {
+        // File will be overwritten with the output!
+        src: "public/js/<%= pkg.name %>.js" 
+      }
+    },
     clean: {
       dev: ["public/js/<%= pkg.name %>.js", 
             "public/css/<%= pkg.name %>.css"]
@@ -136,6 +143,7 @@ module.exports = function(grunt) {
 
   // Load the plugin that provides the tasks.
   grunt.loadNpmTasks('grunt-env');
+  grunt.loadNpmTasks('grunt-angular-gettext');
   grunt.loadNpmTasks('grunt-preprocess');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -147,12 +155,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-jade');
-  grunt.loadNpmTasks('grunt-angular-gettext');
-
+  grunt.loadNpmTasks("grunt-remove-logging");
 
   // Default task(s).
   grunt.registerTask('once', ['copy']);
   grunt.registerTask('default', ['env:dev', 'preprocess', 'jshint', 'cssmin', 'sass', 'jade', 'nggettext_extract', 'nggettext_compile', 'concat', 'connect', 'watch']);
-  grunt.registerTask('prod', ['env:prod', 'preprocess', 'sass', 'jade', 'concat', 'uglify', 'cssmin', 'clean']);
+  grunt.registerTask('prod', ['env:prod', 'preprocess', 'sass', 'jade', 'concat', 'uglify', 'cssmin', 'removelogging', 'clean']);
 
 };

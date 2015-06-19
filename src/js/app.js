@@ -69,15 +69,14 @@
 
   app.controller('mainCtrl', function($scope, $window, $location, $http, $anchorScroll, gettextCatalog, vcRecaptchaService) {
 
-     $scope.submitSuccessfully = false;
-     $scope.widgetId = null;
-     $scope.recaptcha = {key: '6Lf7UwgTAAAAANdbikeI4WwGTYMCk_mvBF2Ze9oC'};
+     // Booking form
+     ////////////////
+     $scope.recaptcha = {key: '6Le_lAgTAAAAAAU_lhDrxBgT2xZutmj68IV14WkK'};
      $scope.setResponse = function (response) {
          console.info('Response available -> ' + response);
          $scope.captchaResponse = response;
      };
      $scope.submit = function () {
-       var valid;
 
        // Make Ajax request to our server with params
        var params = {
@@ -91,28 +90,16 @@
          departure: $scope.departure,
          recaptcha: $scope.captchaResponse
        };
-       console.log('##### response -> ' + JSON.stringify(params)); 
-       $http.post('http://mailer-form-api.filmer.net/mailer/robertskitesafari',params).success(function(response){
-         console.log('##### api response -> ' + JSON.stringify(response)); 
+       //console.log('##### Form input -> ' + JSON.stringify(params)); 
+       //$http.post('http://mailer-form-api.filmer.net/mailer/robertskitesafari',params).success(function(response){
+       $http.post('http://localhost:3001/mailer/robertskitesafari',params).success(function(response){
+         //console.log('##### api response -> ' + JSON.stringify(response)); 
          $scope.submitSuccessfully = JSON.parse(response.submitSuccessfully);
          $scope.submitMessage = response.reason;
          $location.hash('top');
          $anchorScroll();
-         if(response.error === 0){
-           console.log(response.submitSuccessfully);
-         }else{
-           console.log(response.reason);
-         }
        });
-       console.log('sending the captcha response to the server...', $scope.captchaResponse);
-       if (valid) {
-         console.log('Success');
-         } else {
-         console.log('Failed validation');
-         // In case of a failed validation you need to reload the captcha
-         // because each response can be checked just once
-           vcRecaptchaService.reload($scope.widgetId);
-       }
+
      };
 
 
