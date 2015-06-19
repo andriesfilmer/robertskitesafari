@@ -69,13 +69,8 @@
 
   app.controller('mainCtrl', function($scope, $window, $location, $http, $anchorScroll, gettextCatalog, vcRecaptchaService) {
 
-<<<<<<< HEAD
      // Booking form
      ////////////////
-=======
-     $scope.submitSuccessfully = false;
-     $scope.widgetId = null;
->>>>>>> fe579a49057072ecc6eebbab20f2c8c149456579
      $scope.recaptcha = {key: '6Le_lAgTAAAAAAU_lhDrxBgT2xZutmj68IV14WkK'};
      $scope.setResponse = function (response) {
          console.info('Response available -> ' + response);
@@ -95,16 +90,11 @@
          departure: $scope.departure,
          recaptcha: $scope.captchaResponse
        };
-<<<<<<< HEAD
        //console.log('##### Form input -> ' + JSON.stringify(params)); 
-       //$http.post('http://mailer-form-api.filmer.net/mailer/robertskitesafari',params).success(function(response){
-       $http.post('http://localhost:3001/mailer/robertskitesafari',params).success(function(response){
-         //console.log('##### api response -> ' + JSON.stringify(response)); 
-=======
-       console.log('##### response -> ' + JSON.stringify(params)); 
        $http.post('http://form-mailer-api.filmer.net/mailer/robertskitesafari',params).success(function(response){
+       //$http.post('http://localhost:3001/mailer/robertskitesafari',params).success(function(response){
          console.log('##### api response -> ' + JSON.stringify(response)); 
->>>>>>> fe579a49057072ecc6eebbab20f2c8c149456579
+         console.log('##### api response -> ' + JSON.stringify(response)); 
          $scope.submitSuccessfully = JSON.parse(response.submitSuccessfully);
          $scope.submitMessage = response.reason;
          $location.hash('top');
