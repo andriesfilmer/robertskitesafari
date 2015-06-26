@@ -91,12 +91,15 @@
          recaptcha: $scope.captchaResponse
        };
        //console.log('##### Form input -> ' + JSON.stringify(params)); 
-       $http.post('http://form-mailer-api.filmer.net/mailer/robertskitesafari',params).success(function(response){
-       //$http.post('http://localhost:3001/mailer/robertskitesafari',params).success(function(response){
+       //$http.post('http://form-mailer-api.filmer.net/mailer/robertskitesafari',params).success(function(response){
+       $http({method: 'post', 
+              url: 'http://localhost:3001/robertskitesafari',
+              headers: {"x-form-name": 'robertskitesafari'},
+              data: params}).success(function(response){
          console.log('##### api response -> ' + JSON.stringify(response)); 
          console.log('##### api response -> ' + JSON.stringify(response)); 
-         $scope.submitSuccessfully = JSON.parse(response.submitSuccessfully);
-         $scope.submitMessage = response.reason;
+         $scope.submitSuccessfully = JSON.parse(response.success);
+         $scope.submitMessage = response.message;
          $location.hash('top');
          $anchorScroll();
        });
