@@ -1,5 +1,5 @@
 $main-color1: #3D2708; // Default Dark bruin  - top-bar
-$main-color2: #79B842; // Default Green       - row-caption, footer
+$main-color2: #C77E0D; // Default Green       - row-caption, footer
 $topbar-sticky-class: ".sticky" default;
 $footer-logo: #ffbf00; // Yellow background
 
@@ -34,13 +34,6 @@ html, body, .off-canvas-wrap, .inner-wrap, .main-section
 	background: $main-color1;
 }
 
-#booking, .booking {
-  background-color: $main-color1;
-  margin-top: 1em;
-  color: #fff;
-  text-decoration: none;
-}
-
 .row {
   background-color: #fff;
   a {color: #913206;text-decoration: underline;}
@@ -59,6 +52,18 @@ img.full {
      white-space: nowrap;
 }
 #map-canvas { height:30rem; img{max-width: inherit; }}
+
+#booking, .booking-footer, .booking {
+  margin-top: 1em;
+  color: #fff;
+  text-decoration: none;
+}
+#booking {
+  background-color: $main-color1;
+}
+#booking-footer {
+  background-color: $main-color2;
+}
 
 #booking-textarea {
   height: 6em;
@@ -104,7 +109,7 @@ img.full {
   color: #777;
 }
 
-.iGroupware-footer {
+.filmer-footer {
   padding: 1em 0 1em 0;
   background-color: #333;
   color: #777;
@@ -118,5 +123,5 @@ img.full {
 }
 
 .lang-dropdown, li.title.back {
-  background-color: #C77E0D !important;
+  background-color: $main-color2 !important;
 }

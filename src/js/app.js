@@ -11,6 +11,10 @@
         templateUrl: 'partials/home.html',
         controller: 'mainCtrl'
       }).
+      when('/about-us', {
+        templateUrl: 'partials/about-us.html',
+        controller: 'mainCtrl'
+      }).
       when('/booking', {
         templateUrl: 'partials/booking.html',
         controller: 'mainCtrl'
@@ -57,6 +61,7 @@
     gettextCatalog.debug = true;
 
     $rootScope.$on('$routeChangeSuccess', function(newRoute, oldRoute) {
+
       $location.hash($routeParams.scrollTo);
       $anchorScroll();
 
