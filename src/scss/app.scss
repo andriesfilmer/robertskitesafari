@@ -74,6 +74,9 @@ img.full {
   font-size: large;
   margin: 1em 0 1em;
 }
+input[type="text"].required {
+  border: solid 2px red;
+}
 
 .footer {
   // Height must be 45px (nav.tab-bar, .main-section) higher

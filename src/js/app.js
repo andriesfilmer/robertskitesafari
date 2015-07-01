@@ -96,14 +96,14 @@
          recaptcha: $scope.captchaResponse
        };
        //console.log('##### Form input -> ' + JSON.stringify(params)); 
-       //$http.post('http://form-mailer-api.filmer.net/mailer/robertskitesafari',params).success(function(response){
+       //$http.post('http://form-api.filmer.net/mailer',params).success(function(response){
        $http({method: 'post', 
-              url: 'http://localhost:3001/robertskitesafari',
-              headers: {"x-form-name": 'robertskitesafari'},
+              url: 'http://localhost:3001/mailer',
+              headers: {"x-form-template-name": 'robertskitesafari'},
               data: params}).success(function(response){
          console.log('##### api response -> ' + JSON.stringify(response)); 
-         console.log('##### api response -> ' + JSON.stringify(response)); 
          $scope.submitSuccessfully = JSON.parse(response.success);
+         $scope.required = true;
          $scope.submitMessage = response.message;
          $location.hash('top');
          $anchorScroll();

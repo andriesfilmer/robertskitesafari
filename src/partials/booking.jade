@@ -1,4 +1,4 @@
-form(ng-submit="submit()")
+form(name="booking", ng-submit="submit()")
  div.row
   div.large-6.columns
    h3 Booking
@@ -13,18 +13,18 @@ form(ng-submit="submit()")
    img.show-for-large-up.full(src="/static/img/kiter-waves-01.jpg", title="", border="0")
 
   div#top.large-6.columns(ng-hide="submitSuccessfully")
-   h3 Your details
+   h3 Your details {{required}}
    div#error {{submitMessage}}
    label Fullname *
-   input(type="text" name="name", ng-model="fullname")
+   input(type="text" name="name", ng-model="fullname", ng-class="{required: required}")
    label City
    input(type="text" name="city", ng-model="city")
    label Country
    input(type="text" name="country", ng-model="country")
    label Phone *
-   input(type="text" name="phone", ng-model="phone")
+   input(type="text" name="phone", ng-model="phone", ng-class="{required: required}")
    label E-mail *
-   input(type="text" name="email", ng-model="email")
+   input(type="text" name="email", ng-model="email", ng-class="{required: required}")
    label Comments
    textarea#booking-textarea(name="comments", ng-model="comments")
    h3 Tour details
