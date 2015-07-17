@@ -160,6 +160,6 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('once', ['copy']);
   grunt.registerTask('default', ['env:dev', 'preprocess', 'jshint', 'cssmin', 'sass', 'jade', 'nggettext_extract', 'nggettext_compile', 'concat', 'connect', 'watch']);
-  grunt.registerTask('prod', ['env:prod', 'preprocess', 'sass', 'jade', 'concat', 'removelogging', 'uglify', 'cssmin', 'clean']);
+  grunt.registerTask('prod', ['copy', 'env:prod', 'preprocess', 'sass', 'jade', 'concat', 'removelogging', 'uglify', 'cssmin', 'clean']);
 
 };
