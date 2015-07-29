@@ -99,7 +99,7 @@ msgid "Het doel is om in de ochtend na een SUP of surf sessie en ontbijt, te gaa
 msgstr ""
 
 #: public/partials/info.html:58
-msgid "Het is belangrijk een goede reisverzekering af te sluiten dat de kite en de kite geralteerde activiteiten dekt. Dan kan bijvoorbeeld bij <a href=\"https://www.allianz-assistance.nl/reisverzekering/adventure-en-survival-verzekering\">Allianz Global Assistance</a> of via de <a href=\"http://www.funsportpolis.nl/index.php/faq\">Nederlandse kitevereningingn (NKV)</a>"
+msgid "Het is belangrijk een goede reisverzekering af te sluiten dat de kite en de kite gerelateerde activiteiten dekt. Dan kan bijvoorbeeld bij <a href=\"https://www.allianz-assistance.nl/reisverzekering/adventure-en-survival-verzekering\">Allianz Global Assistance</a> of via de <a href=\"http://www.funsportpolis.nl/index.php/faq\">Nederlandse kitevereningingn (NKV)</a>"
 msgstr ""
 
 #: public/partials/home.html:62
@@ -117,7 +117,7 @@ msgstr ""
 #: public/partials/info.html:72
 msgid ""
 "In het geval dat de trip geannuleerd wordt door te weinig inschrijvingen word de aanbetaling volledig teruggestort.\n"
-"      Als je de trip wilt annuleren 30 dagen voor vertrek is de aanbetaling niet uitkeerbaar. Wij hanterenhiervoor dezelfde regels als in de <a href=\"http://www.anvr.nl/\">ANVR</a>. Wat doen wij bij annulering door cyclonen e.d.?"
+"      Als je de trip wilt annuleren 30 dagen voor vertrek is de aanbetaling niet uitkeerbaar. Wij hanteren hiervoor dezelfde regels als in de <a href=\"http://www.anvr.nl/\">ANVR</a>. Wat doen wij bij annulering door cyclonen e.d.?"
 msgstr ""
 
 #: public/partials/info.html:7
