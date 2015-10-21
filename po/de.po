@@ -19,11 +19,11 @@ msgstr "(Genannte Safari Daten sind noch variabel und können etwas abweichen)"
 msgid "2 weken kitesafari € 1950,00"
 msgstr "2 Wochen Kitesafari € 1950,00"
 
-#: public/partials/info.html:105
+#: public/partials/info.html:99
 msgid "2 á 3 kites en een surfboard"
 msgstr "2 á 3 kites und ein surfboard"
 
-#: public/partials/info.html:89
+#: public/partials/info.html:83
 msgid ""
 "<a href=\"http://www.seabreeze.com.au/graphs/wa3.asp\">Seabreeze</a> is een "
 "zeer interessante site met veel informatie over het weer en de lokatie."
@@ -31,7 +31,7 @@ msgstr ""
 "<a href=\"http://www.seabreeze.com.au/graphs/wa3.asp\">Seabreeze</a> ist "
 "eine sehr interessante Seite mit Informationen über das Wetter und die Lage."
 
-#: public/partials/info.html:88
+#: public/partials/info.html:82
 msgid ""
 "<a href=\"http://www.trivago.com/?iPathId=44315&amp;bDispMoreFilter=true&amp;"
 "aDateRange%5Barr%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
@@ -61,7 +61,7 @@ msgstr ""
 "befinden. Der Restbetrag von € 1000,00 muss dann spätestens Ende November "
 "2015 an uns überwiesen sein."
 
-#: public/partials/info.html:76
+#: public/partials/info.html:70
 msgid ""
 "Als zich serieuze weer waarschuwingen voordoen voor de noordelijke kustlijn/"
 "Pilbarra zullen wij de\n"
@@ -77,11 +77,11 @@ msgstr ""
 "Surfkonditionen (Wellen) an der „central coast“ führen. Die Tour kann aber "
 "evtl. auch Richtung Südwesten umgeändert werden."
 
-#: public/partials/info.html:71
+#: public/partials/info.html:68
 msgid "Annulering"
 msgstr "Annullierung"
 
-#: public/partials/info.html:92
+#: public/partials/info.html:86
 msgid "Belangrijk is niet al te veel mee te nemen."
 msgstr "Wichtig ist, dass ihr nicht allzu viele Klamotten mitnehmt."
 
@@ -147,29 +147,20 @@ msgstr ""
 "Reserve Kites, SUP- und Surfboards vorhanden. Darüber hinaus haben wir "
 "genügend Schnorchel-Sets und  Angeln dabei."
 
-#: public/partials/info.html:68
+#: public/partials/info.html:65
 msgid "Deze formulieren moet je getekend opsturen of meenemen."
 msgstr ""
 "Diese Formulare benötigen, um Ihre Zeichnung zu schicken oder übernommen."
 
-#: public/partials/home.html:109
+#: public/partials/about-us.html:19
 msgid ""
 "Door het vele reizen over de hele wereld, mijn ervaring in de entertainment "
-"industrie, jarenlange\n"
-"        horeca ervaring bij Far Out, het verhuren van zomer appartementen en "
-"mijn vrolijke\n"
-"        persoonlijkheid ga ík er alles aan doen om de perfecte gastvrouw "
-"voor jullie te zijn tijdens dit avontuur.\n"
-"        Daarnaast zal ik mij met name bezig houden met de boekingen, "
-"planning van de trips en organisatie."
-msgstr ""
-"Durch meine vielen weltweiten Reisen, umfangreiche Entertainment- und "
-"\tEvent-Erfahrung, jahrelange Gastronomietätigkeit, u.a. bei FarOut, dem "
-"\tVermieten von Ferienappartements an der holländische Nordseeküste und "
-"\tnicht zuletzt, meiner fröhlichen, aufgeschlossenen Persönlichkeit, werde "
-"ich \talles dafür tun, euch während dieses Abenteuers, die perfekte "
-"Gastgeberin zu \tsein.  Auch kümmere ich mich, vor und während der "
-"Kitesafari, um eure \tBuchungen, die Planung und die Organisation der Trips."
+"industrie, jarenlange horeca ervaring bij Far Out, het verhuren van zomer "
+"appartementen en mijn vrolijke persoonlijkheid ga ík er alles aan doen om de "
+"perfecte gastvrouw voor jullie te zijn tijdens dit avontuur. Daarnaast zal "
+"ik mij met name bezig houden met de boekingen, planning van de trips en "
+"organisatie."
+msgstr "(Genannte Safari Daten sind noch variabel und können etwas abweichen)"
 
 #: public/partials/video.html:15
 msgid "Enkele foto's en video's in een montage."
@@ -179,11 +170,11 @@ msgstr "Einige Fotos und Videos in einer Montage."
 msgid "Enkele video fragmenten van onze laatste trip."
 msgstr "Videoclips von unserer letzten Reise"
 
-#: public/partials/info.html:104
+#: public/partials/info.html:98
 msgid "Goede sunblock bijv. Island tribe 40+"
 msgstr "Guter Sun-Blocker z.B.. Island tribe 40+"
 
-#: public/partials/info.html:103
+#: public/partials/info.html:97
 msgid ""
 "Goede zonnebril (Ik zou een waterzonnebril aanraden want de zon in Australië "
 "kan verblindend zijn)"
@@ -203,7 +194,7 @@ msgstr ""
 #: public/partials/info.html:58
 msgid ""
 "Het is belangrijk een goede reisverzekering af te sluiten dat de kite en de "
-"kite geralteerde activiteiten dekt. Dan kan bijvoorbeeld bij <a href="
+"kite gerelateerde activiteiten dekt. Dan kan bijvoorbeeld bij <a href="
 "\"https://www.allianz-assistance.nl/reisverzekering/adventure-en-survival-"
 "verzekering\">Allianz Global Assistance</a> of via de <a href=\"http://www."
 "funsportpolis.nl/index.php/faq\">Nederlandse kitevereningingn (NKV)</a>"
@@ -226,31 +217,27 @@ msgstr ""
 "(falls erforderlich) innerhalb von 1,5 Stunden in einem Krankenhaus oder "
 "beim Arzt sein kann. "
 
-#: public/partials/home.html:79
+#: public/partials/about-us.html:10
 msgid ""
 "Ik ben geboren in Amsterdam en woon nu in Zandvoort. Zo'n 17 jaar geleden "
-"ben ik begonnen met kitesurfen. \n"
-"        Daarnaast heb ik ook allerlei andere watersporten gedaan zoals, "
-"windsurfen, zeilen, wave-skiën en golf surfen."
+"ben ik begonnen met kitesurfen. Daarnaast heb ik ook allerlei andere "
+"watersporten gedaan zoals, windsurfen, zeilen, wave-skiën en golf surfen."
 msgstr ""
 "In Amsterdam geboren und mittlerweile wohnhaft an der Zandvoorter Küste, "
 "begann ich vor ca.17 Jahren mit dem Kitesurfen. Darüber hinaus mache ich "
 "noch andere Wassersportarten, wie Windsurfen, Segeln, Wave-ski, SUP und "
-"natürlich Wellenreiten."
+"natürlich Wellenreiten. "
 
-#: public/partials/home.html:101
+#: public/partials/about-us.html:18
 msgid ""
-"Ik ben geboren in Zuid-Afrika, met mijn 15de emigreerde ik naar Nederland. \n"
-"      Ik ben zangeres en mijn gitaar reist mee naar alle bestemmingen.\n"
-"      De mooiste reizen die ik heb gemaakt zijn wel díe naar Australië "
-"geweest, vooral de trips naar het\n"
-"      Noorden en Zuiden. Ik houd ervan om onderweg zijn, je ontmoet veel "
-"mensen uit allerlei culturen\n"
-"      en landen, ziet zoveel verschillende stranden met een enorm scala aan "
-"mogelijkheden en de\n"
-"      volgende dag is altijd een verrassing.\n"
-"      Met enkele jaren kite ervaring en liefde voor water, voel ik mij thuis "
-"dáár waar er zee en wind is."
+"Ik ben geboren in Zuid-Afrika, met mijn 15de emigreerde ik naar Nederland. "
+"Ik ben zangeres en mijn gitaar reist mee naar alle bestemmingen. De mooiste "
+"reizen die ik heb gemaakt zijn wel díe naar Australië geweest, vooral de "
+"trips naar het Noorden en Zuiden. Ik houd ervan om onderweg zijn, je ontmoet "
+"veel mensen uit allerlei culturen en landen, ziet zoveel verschillende "
+"stranden met een enorm scala aan mogelijkheden en de volgende dag is altijd "
+"een verrassing. Met enkele jaren kite ervaring en liefde voor water, voel ik "
+"mij thuis dáár waar er zee en wind is."
 msgstr ""
 "In Südafrika geboren, emigrierte ich im Alter von 15 Jahren in die "
 "Niederlande. In erster Linie bin ich Sängerin/Musikerin und meine Gitarre "
@@ -262,7 +249,7 @@ msgstr ""
 "Strände und \tKüsten mit einer enormen Skala an Möglichkeiten und jeder neue "
 "Tag ist eine \tÜberraschung. Mit ein paar Jahren Kitesurf-Erfahrung und der "
 "Liebe zum \tWasser, fühle ich mich dort zu Hause, wo Sonne, Meer und Wind "
-"sind."
+"sind. "
 
 #: public/partials/home.html:29
 msgid ""
@@ -276,20 +263,19 @@ msgstr ""
 "Australien ist das ideale Land für Camping am Strand, im „bush“ oder auf "
 "einem Campingplatz."
 
-#: public/partials/info.html:72
+#: public/partials/info.html:69
 msgid ""
 "In het geval dat de trip geannuleerd wordt door te weinig inschrijvingen "
-"word de aanbetaling volledig teruggestort.\n"
-"      Als je de trip wilt annuleren 30 dagen voor vertrek is de aanbetaling "
-"niet uitkeerbaar. Wij hanterenhiervoor dezelfde regels als in de <a href="
-"\"http://www.anvr.nl/\">ANVR</a>. Wat doen wij bij annulering door cyclonen "
-"e.d.?"
+"word de aanbetaling volledig teruggestort. Als je de trip wilt annuleren 30 "
+"dagen voor vertrek is de aanbetaling niet uitkeerbaar. Wij hanteren hiervoor "
+"dezelfde regels als in de <a href=\"http://www.anvr.nl/\">ANVR</a>. Wat doen "
+"wij bij annulering door cyclonen e.d.?"
 msgstr ""
 "In dem Fall, dass die Reise wegen zu geringer Teilnahme/Buchungen annulliert "
 "werden muss, wird die Anzahlung komplett zurückbezahlt. Fall Du Deine "
 "Buchung erst 30 Tage vor Abreise annullierst, ist die Anzahlung nicht zurück "
 "zu erhalten. Wir hantieren hierfür die Regeln des <a href=\"http://www.anvr."
-"nl/\">ANVR</a> (Algemene Nederlandse Vereniging van Reisondernemingen) "
+"nl/\">ANVR</a> (Algemene Nederlandse Vereniging van Reisondernemingen) ."
 
 #: public/partials/info.html:7
 msgid "Inbegrepen in de Prijs:"
@@ -305,7 +291,7 @@ msgstr ""
 msgid "Je in- uitzomen op de kitespots waar we komen."
 msgstr "Prüfen Sie die Zoom-Stufe an den Kitespots, woher wir kommen."
 
-#: public/partials/info.html:91
+#: public/partials/info.html:85
 msgid "Kleding e.d."
 msgstr "Kleidung und nützliches:"
 
@@ -315,7 +301,7 @@ msgstr ""
 "Kaffee, Tee, Wasser, Erfrischungsgetränke und 2 alkoholische Softdrinks "
 "(Bier/Wein)"
 
-#: public/partials/info.html:101
+#: public/partials/info.html:95
 msgid "Lycra"
 msgstr "UV-Top (Lycra)"
 
@@ -342,35 +328,31 @@ msgstr ""
 "hinter dem Riff, kleine Wellen, flaches Wasser und natürlich „reef breaks“. "
 "Die perfekte Küstenlinie um „downwinder“ zu machen und 4WD Tracks zu fahren. "
 
-#: public/partials/home.html:83
+#: public/partials/about-us.html:11
 msgid ""
 "Mijn sport was altijd doel tot de bestemming van mijn reis en zó hebben wij "
-"over de hele wereld\n"
-"        gezworven van Zuid-Afrika tot Brazilië, Costa Rica, Mexico, Amerika, "
-"Hawaï, Bali en Spanje maar de\n"
-"        meeste trips zijn wel naar Australië geweest, daar kom ik al zo'n 18 "
-"jaar en ondertussen weet ik alle\n"
-"        top spots te vinden in het Westen."
+"over de hele wereld gezworven van Zuid-Afrika tot Brazilië, Costa Rica, "
+"Mexico, Amerika, Hawaï, Bali en Spanje maar de meeste trips zijn wel naar "
+"Australië geweest, daar kom ik al zo'n 18 jaar en ondertussen weet ik alle "
+"top spots te vinden in het Westen."
 msgstr ""
 "Meine Affinität zu diesem Sport war schon immer “Mittel zum Zweck”- auf all "
 "meinen Reisen. So sind wir durch die ganze Welt gezogen; von Südafrika bis "
 "Brasilien, nach Costa Rica, Mexico, Amerika, Hawaii, Bali und Spanien, etc. "
 "Aber die meisten Trips sind letztendlich durch Australien gewesen. Dorthin "
 "zieht es mich bereits seit 18 Jahren und inzwischen kenne ich natürlich alle "
-"Top-Spots, besonders gut die im Westen. "
+"Top-Spots, besonders gut die im Westen."
 
-#: public/partials/home.html:89
+#: public/partials/about-us.html:12
 msgid ""
 "Naast de fantastische omstandigheden voor het kitesurfen en andere "
-"watersporten alsook het weer\n"
-"        en veiligheid zijn Australiërs ontzettend gastvrij en oprecht. Dat "
-"is ook wel iets dat ons erg\n"
-"        aanspreekt. Na jarenlange ervaring in de horeca (Ik was 20 jaar "
-"eigenaar van strandpaviljoen <em>FarOut</em> te Zandvoort) \n"
-"        ben ik ervan overtuigd dat mensen entertainen en verzorgen mij op "
-"het lijf\n"
-"        geschreven is. Met deze safari wil ik dát combineren met jullie naar "
-"de mooiste kite spots van West-Australië te nemen."
+"watersporten alsook het weer en veiligheid zijn Australiërs ontzettend "
+"gastvrij en oprecht. Dat is ook wel iets dat ons erg aanspreekt. Na "
+"jarenlange ervaring in de horeca (Ik was 20 jaar eigenaar van "
+"strandpaviljoen <em>FarOut</em> te Zandvoort)  ben ik ervan overtuigd dat "
+"mensen entertainen en verzorgen mij op het lijf geschreven is. Met deze "
+"safari wil ik dát combineren met jullie naar de mooiste kite spots van West-"
+"Australië te nemen."
 msgstr ""
 "Neben den fantastischen Möglichkeiten zum Kitesurfen und den anderen "
 "Wassersportarten, wie auch dem Wetter und der Sicherheit, sind die "
@@ -381,24 +363,23 @@ msgstr ""
 "das Entertainen (Unterhalten) und Bewirten vor allem von Surfern, besonders "
 "liegt und gefällt. Bei dieser Kitesafari möchte ich dann auch dies alles "
 "kombinieren und euch zu den schönsten Kitesurf-Spots West-Australiens "
-"mitnehmen.  "
+"mitnehmen. "
 
 #: public/partials/info.html:60
 msgid ""
 "Omdat je mee gaat doen met kitevakantie verwachten we dat je genoeg ervaring "
-"hebt. \n"
-"      Daarom vinden we het belangrijk dat je de volgende informatie goed "
+"hebt. Daarom vinden we het belangrijk dat je de volgende informatie goed "
 "gelezen hebt:"
 msgstr ""
 "Da wirst du mit Drachen Urlaub engagieren, erwarten wir, dass Sie genug "
 "Erfahrung haben. Deshalb finden wir es wichtig, dass Sie die folgenden "
-"Informationen sorgfältig zu lesen:"
+"Informationen sorgfältig zu lesen: "
 
 #: public/partials/info.html:11
 msgid "Ontbijt, lunch, avondeten en snacks in between"
 msgstr "Frühstück, Mittagessen, Abendessen und Snacks (in between)"
 
-#: public/partials/info.html:86
+#: public/partials/info.html:80
 msgid "Overige informatie"
 msgstr "Reiseinformation "
 
@@ -406,7 +387,7 @@ msgstr "Reiseinformation "
 msgid "Overnachtingen op campings en toeslag entrée voor natuurparken"
 msgstr "Übernachtungen auf Campingplätzen und Eintrittsgebühren für Naturparks"
 
-#: public/partials/info.html:100
+#: public/partials/info.html:94
 msgid "Petje"
 msgstr "Cap oder Hut (die Sonnenintensität  Australiens ist euch ja bekannt)"
 
@@ -428,11 +409,11 @@ msgstr ""
 "einem Tag der Entspannung in der fantastischen Stadt Perth (wo wir auf einem "
 "Campingplatz übernachten werden) beginnt unsere Reise „up North“. "
 
-#: public/partials/info.html:96
+#: public/partials/info.html:90
 msgid "Short"
 msgstr "Short"
 
-#: public/partials/info.html:102
+#: public/partials/info.html:96
 msgid ""
 "Shorty voor in de middag (Als je te lang vaart schuurt je buik open door "
 "zout en zand)"
@@ -440,19 +421,19 @@ msgstr ""
 "Shorty für den Mittag (Wenn Du zu lange surfst, scheuert der Bauch durch "
 "Salz und Sand auf) "
 
-#: public/partials/info.html:99
+#: public/partials/info.html:93
 msgid "Slippers en een paar goede schoenen"
 msgstr "Slippers und ein paar gute, bzw. feste Schuhe"
 
-#: public/partials/info.html:97
+#: public/partials/info.html:91
 msgid "Sokken"
 msgstr "Socken"
 
-#: public/partials/info.html:95
+#: public/partials/info.html:89
 msgid "Spijkerbroek"
 msgstr "Jeanshose"
 
-#: public/partials/info.html:98
+#: public/partials/info.html:92
 msgid "T-shirts, sweater en een hoody omdat het 's avond soms kan afkoelen"
 msgstr "T-Shirts, einen Sweater, oder Hoody (denn es kann abends mal abkühlen)"
 
@@ -468,7 +449,7 @@ msgstr "3 Toyota Landcruisern, Dachzelte, gewöhnliche Zelte, Küchentrailer. "
 msgid "Trailer voor boards, kites, SUP boards, bootje, vishengels e.d."
 msgstr "Trailer für Boards, Kites, SUP-Boards, Boot, Angeln, usw."
 
-#: public/partials/info.html:94
+#: public/partials/info.html:88
 msgid "Training broek"
 msgstr "Trainingshose"
 
@@ -485,14 +466,14 @@ msgid "Verzekering"
 msgstr "Versicherung"
 
 #: public/partials/video.html:4
-msgid "Video's to get some taste"
+msgid "Video's to get a first taste"
 msgstr "Appetitmacher (Video's und foto's to get some taste)"
 
 #: public/partials/info.html:51
 msgid "Vliegtickets variëren in prijs van € 900,00 tot € 1400,00"
 msgstr "Flugtickets variieren im Preis zwischen ca. € 900,00 und € 1400,00"
 
-#: public/partials/info.html:107
+#: public/partials/info.html:101
 msgid ""
 "Voor díegene die willen afwisselen zijn er genoeg twin-tips aanwezig alsook "
 "reserve kites, SUP- en surfboards, snorkel- en visuitrusting"

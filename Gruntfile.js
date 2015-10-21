@@ -59,6 +59,7 @@ module.exports = function(grunt) {
         files: {
           'po/template.pot': ['public/partials/home.html', 
                               'public/partials/info.html',
+                              'public/partials/about-us.html',
                               'public/partials/map.html', 
                               'public/partials/video.html']
         }
