@@ -1,29 +1,22 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Robertskitesafari\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Andries Filmer <andries@filmer.nl>\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: public/partials/info.html:40
+#: public/partials/info.html:35
 msgid "(geplande data is variabel en kan afwijken)"
 msgstr "(Genannte Safari Daten sind noch variabel und können etwas abweichen)"
 
-#: public/partials/info.html:5
-msgid "2 weken kitesafari € 1950,00"
-msgstr "2 Wochen Kitesafari € 1950,00"
-
-#: public/partials/info.html:99
-msgid "2 á 3 kites en een surfboard"
-msgstr "2 á 3 kites und ein surfboard"
-
-#: public/partials/info.html:83
+#: public/partials/info.html:78
 msgid ""
 "<a href=\"http://www.seabreeze.com.au/graphs/wa3.asp\">Seabreeze</a> is een "
 "zeer interessante site met veel informatie over het weer en de lokatie."
@@ -31,37 +24,32 @@ msgstr ""
 "<a href=\"http://www.seabreeze.com.au/graphs/wa3.asp\">Seabreeze</a> ist "
 "eine sehr interessante Seite mit Informationen über das Wetter und die Lage."
 
-#: public/partials/info.html:82
+#: public/partials/info.html:77
 msgid ""
-"<a href=\"http://www.trivago.com/?iPathId=44315&amp;bDispMoreFilter=true&amp;"
-"aDateRange%5Barr%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
-"aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;iRoomType=7&amp;sOrderBy=relevance"
-"%20desc&amp;aPartner=&amp;aOverallLiking=1%2C2%2C3%2C4%2C5&amp;iOffset=0&amp;"
-"iLimit=25&amp;iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;"
-"aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
-"%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
-"\"_blanc\">Trivago</a> is een goede site om hotels, appartementen te vinden."
+"<a href=\"http://www.trivago.com/?iPathId=44315\" target=\"_blanc\">Trivago</"
+"a> is een goede site om hotels, appartementen te vinden."
 msgstr ""
-"<a href=\"http://www.trivago.com/?iPathId=44315&amp;bDispMoreFilter=true&amp;"
-"aDateRange%5Barr%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
-"aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;iRoomType=7&amp;sOrderBy=relevance"
-"%20desc&amp;aPartner=&amp;aOverallLiking=1%2C2%2C3%2C4%2C5&amp;iOffset=0&amp;"
-"iLimit=25&amp;iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;"
-"aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
-"%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
-"\"_blanc\">Trivago</a> ist eine gute Website für Hotels, Ferienwohnungen "
-"finden."
+"<a href=\"http://www.trivago.com/?iPathId=44315\" target=\"_blanc\">Trivago</"
+"a> ist eine gute Seite für Hotels und Apartments."
+
+#: public/partials/info.html:94
+msgid "2 á 3 kites en een surfboard"
+msgstr "2 á 3 kites und ein surfboard"
+
+#: public/partials/info.html:5
+msgid "2 weken kitesafari € 1750,00"
+msgstr "2 Wochen Kitesafari € 1750,00"
 
 #: public/partials/info.html:6
 msgid ""
-"Aanbetaling 950,00 vóór eind augustus 2015. De restbetaling van € 1000,- "
-"dient uiterlijk eind november 2015 bijgeschreven te zijn."
+"Aanbetaling 750,00 vóór eind augustus 2017. De restbetaling van € 1000,- "
+"dient uiterlijk eind november 2017 bijgeschreven te zijn."
 msgstr ""
-"Die Anzahlung von € 950,00 muss sich bis Ende August 2015 auf unserem Konto "
+"Die Anzahlung von € 750,00 muss sich bis Ende August 2015 auf unserem Konto "
 "befinden. Der Restbetrag von € 1000,00 muss dann spätestens Ende November "
-"2015 an uns überwiesen sein."
+"2017 an uns überwiesen sein."
 
-#: public/partials/info.html:70
+#: public/partials/info.html:65
 msgid ""
 "Als zich serieuze weer waarschuwingen voordoen voor de noordelijke kustlijn/"
 "Pilbarra zullen wij de\n"
@@ -77,15 +65,15 @@ msgstr ""
 "Surfkonditionen (Wellen) an der „central coast“ führen. Die Tour kann aber "
 "evtl. auch Richtung Südwesten umgeändert werden."
 
-#: public/partials/info.html:68
+#: public/partials/info.html:63
 msgid "Annulering"
 msgstr "Annullierung"
 
-#: public/partials/info.html:86
+#: public/partials/info.html:81
 msgid "Belangrijk is niet al te veel mee te nemen."
 msgstr "Wichtig ist, dass ihr nicht allzu viele Klamotten mitnehmt."
 
-#: public/partials/info.html:45
+#: public/partials/info.html:40
 msgid "Beste verbinding (zelf te regelen):"
 msgstr "Beste Flugverbindung: "
 
@@ -109,11 +97,18 @@ msgstr ""
 "day“ , denn es kann ohne Weiteres geschehen, dass wir einen leckeren Fisch "
 "fangen. Dafür ist  Australien schließlich bekannt."
 
+#: public/partials/info.html:44
+msgid "ca. 10 uur naar Perth met Airbus 380"
+msgstr "ca. 10 Stunden nach Perth mit Airbus 380"
+
+#: public/partials/info.html:43
+msgid "ca. 6 vlieguren naar Dubai met A380"
+msgstr "ca. 6 Flugstunden nach Dubai mit A380"
+
 #: public/partials/info.html:22
-msgid "Datum van vertrek medio november 2015 t/m eind februari 2016."
+msgid "Datum van vertrek medio november 2017 t/m eind februari 2018."
 msgstr ""
-"Die geplanten Safari Daten*: sind ab Mitte November 2015 bis Ende Februar "
-"2016."
+"Die geplanten Safari Daten sind ab Mitte November 2017 bis Ende Februar 2018."
 
 #: public/partials/home.html:58
 msgid ""
@@ -147,7 +142,7 @@ msgstr ""
 "Reserve Kites, SUP- und Surfboards vorhanden. Darüber hinaus haben wir "
 "genügend Schnorchel-Sets und  Angeln dabei."
 
-#: public/partials/info.html:65
+#: public/partials/info.html:60
 msgid "Deze formulieren moet je getekend opsturen of meenemen."
 msgstr ""
 "Diese Formulare benötigen, um Ihre Zeichnung zu schicken oder übernommen."
@@ -162,7 +157,7 @@ msgid ""
 "organisatie."
 msgstr "(Genannte Safari Daten sind noch variabel und können etwas abweichen)"
 
-#: public/partials/video.html:15
+#: public/partials/video.html:21
 msgid "Enkele foto's en video's in een montage."
 msgstr "Einige Fotos und Videos in einer Montage."
 
@@ -170,11 +165,15 @@ msgstr "Einige Fotos und Videos in einer Montage."
 msgid "Enkele video fragmenten van onze laatste trip."
 msgstr "Videoclips von unserer letzten Reise"
 
-#: public/partials/info.html:98
+#: public/partials/video.html:15
+msgid "Enkele video fragmenten van onze trip in 2015"
+msgstr "Einige Fotos und Videos in einer Montage."
+
+#: public/partials/info.html:93
 msgid "Goede sunblock bijv. Island tribe 40+"
 msgstr "Guter Sun-Blocker z.B.. Island tribe 40+"
 
-#: public/partials/info.html:97
+#: public/partials/info.html:92
 msgid ""
 "Goede zonnebril (Ik zou een waterzonnebril aanraden want de zon in Australië "
 "kan verblindend zijn)"
@@ -191,7 +190,7 @@ msgstr ""
 "gemütlichen Frühstück, die Reise zum nächsten (angestrebten Gebiet) "
 "Bestimmungsort fortzusetzen."
 
-#: public/partials/info.html:58
+#: public/partials/info.html:53
 msgid ""
 "Het is belangrijk een goede reisverzekering af te sluiten dat de kite en de "
 "kite gerelateerde activiteiten dekt. Dan kan bijvoorbeeld bij <a href="
@@ -263,7 +262,7 @@ msgstr ""
 "Australien ist das ideale Land für Camping am Strand, im „bush“ oder auf "
 "einem Campingplatz."
 
-#: public/partials/info.html:69
+#: public/partials/info.html:64
 msgid ""
 "In het geval dat de trip geannuleerd wordt door te weinig inschrijvingen "
 "word de aanbetaling volledig teruggestort. Als je de trip wilt annuleren 30 "
@@ -281,7 +280,7 @@ msgstr ""
 msgid "Inbegrepen in de Prijs:"
 msgstr "Im Preis inbegriffen:"
 
-#: public/partials/info.html:41
+#: public/partials/info.html:36
 msgid "Inschrijvingen per tour minimaal 8 en maximaal 10 personen."
 msgstr ""
 "Die  Anzahl der Buchungen per Tour liegen bei minimal 8 und maximal 10 "
@@ -291,7 +290,7 @@ msgstr ""
 msgid "Je in- uitzomen op de kitespots waar we komen."
 msgstr "Prüfen Sie die Zoom-Stufe an den Kitespots, woher wir kommen."
 
-#: public/partials/info.html:85
+#: public/partials/info.html:80
 msgid "Kleding e.d."
 msgstr "Kleidung und nützliches:"
 
@@ -301,7 +300,7 @@ msgstr ""
 "Kaffee, Tee, Wasser, Erfrischungsgetränke und 2 alkoholische Softdrinks "
 "(Bier/Wein)"
 
-#: public/partials/info.html:95
+#: public/partials/info.html:90
 msgid "Lycra"
 msgstr "UV-Top (Lycra)"
 
@@ -365,7 +364,7 @@ msgstr ""
 "kombinieren und euch zu den schönsten Kitesurf-Spots West-Australiens "
 "mitnehmen. "
 
-#: public/partials/info.html:60
+#: public/partials/info.html:55
 msgid ""
 "Omdat je mee gaat doen met kitevakantie verwachten we dat je genoeg ervaring "
 "hebt. Daarom vinden we het belangrijk dat je de volgende informatie goed "
@@ -379,7 +378,7 @@ msgstr ""
 msgid "Ontbijt, lunch, avondeten en snacks in between"
 msgstr "Frühstück, Mittagessen, Abendessen und Snacks (in between)"
 
-#: public/partials/info.html:80
+#: public/partials/info.html:75
 msgid "Overige informatie"
 msgstr "Reiseinformation "
 
@@ -387,7 +386,7 @@ msgstr "Reiseinformation "
 msgid "Overnachtingen op campings en toeslag entrée voor natuurparken"
 msgstr "Übernachtungen auf Campingplätzen und Eintrittsgebühren für Naturparks"
 
-#: public/partials/info.html:94
+#: public/partials/info.html:89
 msgid "Petje"
 msgstr "Cap oder Hut (die Sonnenintensität  Australiens ist euch ja bekannt)"
 
@@ -395,7 +394,7 @@ msgstr "Cap oder Hut (die Sonnenintensität  Australiens ist euch ja bekannt)"
 msgid "Prijsindicatie en voorwaarden"
 msgstr "Kosten und Regeln"
 
-#: public/partials/info.html:44
+#: public/partials/info.html:39
 msgid "Reis informatie"
 msgstr "Reiseinformation"
 
@@ -409,11 +408,11 @@ msgstr ""
 "einem Tag der Entspannung in der fantastischen Stadt Perth (wo wir auf einem "
 "Campingplatz übernachten werden) beginnt unsere Reise „up North“. "
 
-#: public/partials/info.html:90
+#: public/partials/info.html:85
 msgid "Short"
 msgstr "Short"
 
-#: public/partials/info.html:96
+#: public/partials/info.html:91
 msgid ""
 "Shorty voor in de middag (Als je te lang vaart schuurt je buik open door "
 "zout en zand)"
@@ -421,19 +420,19 @@ msgstr ""
 "Shorty für den Mittag (Wenn Du zu lange surfst, scheuert der Bauch durch "
 "Salz und Sand auf) "
 
-#: public/partials/info.html:93
+#: public/partials/info.html:88
 msgid "Slippers en een paar goede schoenen"
 msgstr "Slippers und ein paar gute, bzw. feste Schuhe"
 
-#: public/partials/info.html:91
+#: public/partials/info.html:86
 msgid "Sokken"
 msgstr "Socken"
 
-#: public/partials/info.html:89
+#: public/partials/info.html:84
 msgid "Spijkerbroek"
 msgstr "Jeanshose"
 
-#: public/partials/info.html:92
+#: public/partials/info.html:87
 msgid "T-shirts, sweater en een hoody omdat het 's avond soms kan afkoelen"
 msgstr "T-Shirts, einen Sweater, oder Hoody (denn es kann abends mal abkühlen)"
 
@@ -449,7 +448,7 @@ msgstr "3 Toyota Landcruisern, Dachzelte, gewöhnliche Zelte, Küchentrailer. "
 msgid "Trailer voor boards, kites, SUP boards, bootje, vishengels e.d."
 msgstr "Trailer für Boards, Kites, SUP-Boards, Boot, Angeln, usw."
 
-#: public/partials/info.html:88
+#: public/partials/info.html:83
 msgid "Training broek"
 msgstr "Trainingshose"
 
@@ -457,11 +456,11 @@ msgstr "Trainingshose"
 msgid "Transfer en retour vliegveld Perth"
 msgstr "Transfer zum Flughafen Perth (nach der Safari)"
 
-#: public/partials/info.html:52
-msgid "Vergeet niet tijdig vergeten Visa te regelen."
+#: public/partials/info.html:47
+msgid "Vergeet niet tijdig je Visa te regelen."
 msgstr "Visa nicht vergessen RECHTZEITIG zu bestellen."
 
-#: public/partials/info.html:57
+#: public/partials/info.html:52
 msgid "Verzekering"
 msgstr "Versicherung"
 
@@ -469,11 +468,11 @@ msgstr "Versicherung"
 msgid "Video's to get a first taste"
 msgstr "Appetitmacher (Video's und foto's to get some taste)"
 
-#: public/partials/info.html:51
+#: public/partials/info.html:46
 msgid "Vliegtickets variëren in prijs van € 900,00 tot € 1400,00"
 msgstr "Flugtickets variieren im Preis zwischen ca. € 900,00 und € 1400,00"
 
-#: public/partials/info.html:101
+#: public/partials/info.html:96
 msgid ""
 "Voor díegene die willen afwisselen zijn er genoeg twin-tips aanwezig alsook "
 "reserve kites, SUP- en surfboards, snorkel- en visuitrusting"
@@ -512,71 +511,18 @@ msgstr ""
 "Küstenlinie, wovon Roberts Kitesafari 20 von diesen wunderschönen Kite-"
 "Spots  besuchen wird."
 
-#: public/partials/info.html:49
-msgid "ca. 10 uur naar Perth met Airbus 380"
-msgstr "ca. 10 Stunden nach Perth mit Airbus 380"
+#~ msgid "Datum van vertrek medio november 2016 t/m eind februari 2017."
+#~ msgstr ""
+#~ "Die geplanten Safari Daten*: sind ab Mitte November 2015 bis Ende Februar "
+#~ "2016."
 
-#: public/partials/info.html:48
-msgid "ca. 6 vlieguren naar Dubai met A380"
-msgstr "ca. 6 Flugstunden nach Dubai mit A380 "
-
-#~ msgid "Hallo robert"
-#~ msgstr "Gotentag Robert"
+#~ msgid "2 weken kitesafari € 1950,00"
+#~ msgstr "2 Wochen Kitesafari € 1950,00"
 
 #~ msgid ""
-#~ "Overige informatie\n"
-#~ "      <ul>\n"
-#~ "        <li translate=\"translate\"><a href=\"http://www.trivago.com/?"
-#~ "iPathId=44315&amp;bDispMoreFilter=true&amp;aDateRange%5Barr"
-#~ "%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
-#~ "aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;iRoomType=7&amp;"
-#~ "sOrderBy=relevance%20desc&amp;aPartner=&amp;"
-#~ "aOverallLiking=1%2C2%2C3%2C4%2C5&amp;iOffset=0&amp;iLimit=25&amp;"
-#~ "iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;aPriceRange"
-#~ "%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
-#~ "%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
-#~ "\"_blanc\">Trivago</a> is een goede site om hotels, appartementen te "
-#~ "vinden.</li>\n"
-#~ "        <li translate=\"translate\"><a href=\"http://www.seabreeze.com.au/"
-#~ "graphs/wa3.asp\">Seabreeze</a> is een zeer interessante site met veel "
-#~ "informatie over het weer en de lokatie.</li>\n"
-#~ "      </ul>"
+#~ "Aanbetaling 950,00 vóór eind augustus 2016. De restbetaling van € 1000,- "
+#~ "dient uiterlijk eind november 2016 bijgeschreven te zijn."
 #~ msgstr ""
-#~ "Andere Informationen\n"
-#~ "      <ul>\n"
-#~ "        <li translate=\"translate\"><a href=\"http://www.trivago.com/?"
-#~ "iPathId=44315&amp;bDispMoreFilter=true&amp;aDateRange%5Barr"
-#~ "%5D=2015-06-14&amp;aDateRange%5Bdep%5D=2015-06-15&amp;"
-#~ "aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;iRoomType=7&amp;"
-#~ "sOrderBy=relevance%20desc&amp;aPartner=&amp;"
-#~ "aOverallLiking=1%2C2%2C3%2C4%2C5&amp;iOffset=0&amp;iLimit=25&amp;"
-#~ "iIncludeAll=0&amp;bTopDealsOnly=false&amp;iViewType=0&amp;aPriceRange"
-#~ "%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;aGeoCode%5Blng"
-#~ "%5D=115.857468&amp;aGeoCode%5Blat%5D=-31.953005&amp;of%5Blodging\" target="
-#~ "\"_blanc\">Trivago</a> is een goede site om hotels, appartementen te "
-#~ "vinden.</li>\n"
-#~ "        <li translate=\"translate\"><a href=\"http://www.seabreeze.com.au/"
-#~ "graphs/wa3.asp\">Seabreeze</a> is een zeer interessante site met veel "
-#~ "informatie over het weer en de lokatie.</li>\n"
-#~ "      </ul>"
-
-#~ msgid "Some footage from a recent trip."
-#~ msgstr "Einige Aufnahmen von einer neuen Reise"
-
-#~ msgid "Australian coastline"
-#~ msgstr "Australian coastline"
-
-#~ msgid "Andere taal kiezen"
-#~ msgstr "Andere Sprache wählen"
-
-#~ msgid "Duits"
-#~ msgstr "Duist"
-
-#~ msgid "Engels"
-#~ msgstr "Englisch"
-
-#~ msgid "Maak een keuze"
-#~ msgstr "Wählen eine Sprache"
-
-#~ msgid "Nederland"
-#~ msgstr "Holländisch"
+#~ "Die Anzahlung von € 950,00 muss sich bis Ende August 2015 auf unserem "
+#~ "Konto befinden. Der Restbetrag von € 1000,00 muss dann spätestens Ende "
+#~ "November 2015 an uns überwiesen sein."

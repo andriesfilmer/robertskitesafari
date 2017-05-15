@@ -98,7 +98,8 @@
        //console.log('##### Form input -> ' + JSON.stringify(params)); 
        //$http.post('http://form-api.filmer.net/mailer',params).success(function(response){
        $http({method: 'post', 
-              url: 'http://localhost:3001/mailer',
+              //url: 'http://localhost:3001/mailer',
+              url: 'http://form-api.filmer.net/mailer',
               headers: {"x-form-template-name": 'robertskitesafari'},
               data: params}).success(function(response){
          console.log('##### api response -> ' + JSON.stringify(response)); 
